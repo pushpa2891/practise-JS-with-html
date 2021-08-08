@@ -25,5 +25,5 @@ let forecastedTemp = function(tempature) {
 
 } 
 
-console.log(forecastedTemp([17, 21, 23]));
-console.log(forecastedTemp([12,5,-5,0,4])); 
+console.log(forecastedTemp([17, 21, 23])); //... 17oC in 0 days ... 21oC in 1 days ... 23oC in 2 days 
+console.log(forecastedTemp([12,5,-5,0,4])); //... 12oC in 0 days ... 5oC in 1 days ... -5oC in 2 days ... 0oC in 3 days ... 4oC in 4 days 
