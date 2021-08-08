@@ -15,9 +15,9 @@ let forecastedTemp = function(tempature) {
 
   let string = ""; 
 
-   for (let i in tempature) {
+   for (let [index,item] of tempature.entries()) { //array destructuring
 
-     string += `... ${tempature[i]}oC in ${i} days `;
+     string += `... ${item}oC in ${index} days `;
 
    }
    
