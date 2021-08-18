@@ -91,7 +91,7 @@ const game = {
     printGoals(...players1);
     printGoals(...game.scored);
 
-    //Solution fot 7th task
+    //Solution for 7th task
 
     team1 < team2 && document.write('team1 is more likely to win');
     team1 > team2 && document.write('team2 is more likely to win'); 
